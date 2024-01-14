@@ -1,0 +1,44 @@
+bady {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ......nav releated Styles.....*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-tital {
+    color: #181818;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+span {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+nav ul li button {
+    width: 75px;
+    height: 35px;
+    background-color: #FD6E0A;
+    border: 2px solid rgb(76, 76, 230);
+    border-radius: 5px;
+}
